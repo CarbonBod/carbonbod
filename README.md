@@ -39,6 +39,13 @@ CarbonBod is building the carbon registry for West Africa — inspired by Ghana'
 3. **Settlement Layer** — Digital credit custody, transparent retirement, mobile-money payout rails (MTN MoMo)
 4. **Trust Mark** — Every CarbonBod credit carries the *"Webara Verified"* data-integrity seal
 
+### 📐 Protocol Documentation
+
+Full technical specifications live in [`docs/`](./docs):
+
+- **[PROTOCOLS.md](./docs/PROTOCOLS.md)** — the complete protocol stack: IPFS evidence layer, ERC-721 credit registry (1 credit = 1 tonne, OMGE auto-burn), Seaport (MIT) marketplace fork with Article 6 compliance gates, and the certificate layer
+- **[RETIREMENT-CERTIFICATES.md](./docs/RETIREMENT-CERTIFICATES.md)** — restricted-transfer soulbound retirement certificates: non-tradeable by owners, recoverable only by multisig authorities *embedded in the NFT itself* (host-country regulator, registry council, optional buyer successor) via public, notice-period-governed transfers
+
 ### Built by
 
 **[Webara Studio](https://webarastudio.com)** — technology partner and MRV infrastructure provider.
